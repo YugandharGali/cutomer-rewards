@@ -16,16 +16,16 @@ This Springboot APIs are used to get the last three months customer transaction 
 - **PlanUML**         - Draw sequence diagrams
 
 ## Application Structure
-![Project](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/project-structure.png)
+![Project](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/project-structure.png)
 
 ## Database Structure
-![DB](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/h2-db-console.png)
+![DB](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/h2-db-console.png)
 
 ## Entity Relation Model
-![E-R](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/er-diagram.png)
+![E-R](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/er-diagram.png)
 
 ## Sequence Diagram
-![sequence](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/sequence-diagram.png)
+![sequence](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/sequence-diagram.png)
 
 ## Running the server locally
 The pom.xml can be configured to generate a executable jar file.
@@ -38,8 +38,8 @@ mvn spring-boot:run
 ````
 
 ## API Security
-Basic authentication will pop-up to enter the username and password
-![Security](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/secure-api.png)
+Basic authentication will pop-up to enter the username and password (rewardapi/rewardapi)
+![Security](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/secure-api.png)
 
 
 ## Service Actuator Endpoints
@@ -50,7 +50,7 @@ http://<host-name>:2020/actuator
 
 ````
 
-![Actuator](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/actuator-endpoints.png)
+![Actuator](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/actuator-endpoints.png)
 
 
 ## Service Health Monitor With Actuator
@@ -60,34 +60,34 @@ Following URL is used to get the service health. Another way could be enabled th
 http://<host-name>:2020/actuator/health
 
 ````
-![Health](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/health-monitor.png)
+![Health](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/health-monitor.png)
 
 
 ## Functional Test Results
 
 1. Customer with card number *PAN1234* last 3 months reward points.
-![PAN1234](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/PAN1234-reward-points.png)
+![PAN1234](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/PAN1234-reward-points.png)
 
 2. Customer with card number *PAS1234* last 3 months reward points.
-![PAS1234](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/PAS1234-reward-points.png)
+![PAS1234](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/PAS1234-reward-points.png)
 
 3. Create New customer record.
-![New Customer](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/add-new-customer.png)
+![New Customer](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/add-new-customer.png)
 
 4. Crate Customer which already exists (card number should unique).
-![New Customer Fail](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/add-fail-cutomer-exists.png)
+![New Customer Fail](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/add-fail-cutomer-exists.png)
 
 5. Add New transaction of newly created customer.
-![New Trans](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/add-new-transaction.png)
+![New Trans](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/add-new-transaction.png)
 
 6. Customer with card number *PAS1234* last 3 months reward points.
-![ADHAR123](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/ADHAR123-reward-points.png)
+![ADHAR123](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/ADHAR123-reward-points.png)
 
 7. Delete Customer, which will delete associated transations as well.
-![Delete Customer](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/delete-customer.png)
+![Delete Customer](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/delete-customer.png)
 
 ## Junit Results
-![jUnit](file:///Users/ugandhargali/yuga/softwares/sts-ws/customer-rewards/src/main/resources/static/img/junit-results.png)
+![jUnit](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/junit-results.png)
 
 
 ## Docker
