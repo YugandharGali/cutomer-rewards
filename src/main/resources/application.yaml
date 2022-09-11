@@ -1,0 +1,51 @@
+server:
+  port: 2020
+
+spring:
+  application:
+    name: customer-rewards
+  datasource:
+    url: jdbc:h2:mem:rewarddb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true  
+  sql:
+    init:
+      mode: always
+
+logging:
+  level:
+    root: INFO
+
+# Actuator and Prometheus Metrics configurations
+springdoc:
+ show-actuator: true
+management:
+    endpoint:
+        metrics:
+            enabled: true
+        prometheus:
+            enabled: true
+        health:
+          show-details: always    
+    endpoints:
+        web:
+            exposure:
+                include: prometheus,health
+                exclude:
+        jmx:
+            exposure:
+                include: '*'
+                exclude:
+    metrics:
+        export:
+            prometheus:
+                enabled: true
