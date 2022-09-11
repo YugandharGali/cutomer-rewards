@@ -38,7 +38,9 @@ mvn spring-boot:run
 ````
 
 ## API Security
-Basic authentication will pop-up to enter the username and password (rewardapi/rewardapi)
+On service access *http://<host-name>:2020/swagger-ui.html* access, 
+the basic authentication will pop-up to enter the username and password (rewardapi/rewardapi)
+
 ![Security](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/secure-api.png)
 
 
