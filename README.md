@@ -39,6 +39,7 @@ mvn spring-boot:run
 
 ## API Security
 On service access *http://<host-name>:2020/swagger-ui.html*, the basic authentication will pop-up to enter the username and password (rewardapi/rewardapi)
+Other security methods OAuth2, JWT, Login based Auth, Bearer token access also can be implemented.
 ![Security](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/secure-api.png)
 
 
