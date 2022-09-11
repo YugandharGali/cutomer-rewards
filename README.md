@@ -14,6 +14,7 @@ This Springboot APIs are used to get the last three months customer transaction 
 - **Junit**           - Unit testing framework
 - **Gliffy**          - ER diagrams design tool
 - **PlanUML**         - Draw sequence diagrams
+- **Heroku**          - Cloud service to deploy application
 
 ## Application Structure
 ![Project](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/project-structure.png)
@@ -112,6 +113,15 @@ Swagger documentation is in-built swagger documentation support and can be acces
 ````
 http://<host-name>:2020/swagger-ui.html
 ````
+## Heroku Deployment and API access
+
+````
+https://customer-rewards.herokuapp.com/swagger-ui/index.html
+````
+![Heroku1](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/heroku-cloud-deployment.png)
+![Heroku2](https://github.com/YugandharGali/cutomer-rewards/blob/main/src/main/resources/static/img/heroku-api-access.png)
+
+
 
 ## Contributors
 [Yugandhar Gali](https://www.linkedin.com/in/yugandhar-gali-84591050/)
