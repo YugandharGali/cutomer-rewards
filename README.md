@@ -6,6 +6,7 @@ This Springboot APIs are used to get the last three months customer transaction 
 ## Technology
 
 - **Spring Boot**     - Server side framework
+- **H2 Database**     - InMemory database
 - **JPA**             - Entity framework
 - **Actuator**        - Application insights on the fly, health monitor
 - **Security**        - Spring Basic security
